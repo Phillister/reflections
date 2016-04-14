@@ -4,3 +4,9 @@ The .git meta-data-file is created, which is a prerequisite for git tracking ver
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 commits added to the staging area are not affected by changes in the working directory anymore.
 But as they are not immediately put into the log of the repository, it provides git with a clear overview.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By comparing the changes in the staging area with the working directory and the repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+As seen in the example, branches help when you would like to make a tweak to the code, but the final result might not be what you want to keep on working in the master-branch
