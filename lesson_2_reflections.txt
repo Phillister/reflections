@@ -1,4 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
-
 The .git meta-data-file is created, which is a prerequisite for git tracking versions
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+commits added to the staging area are not affected by changes in the working directory anymore.
+But as they are not immediately put into the log of the repository, it provides git with a clear overview.
